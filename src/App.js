@@ -44,7 +44,22 @@ export default function App() {
     */
 
   /* ️⬇️️ ------------------ Kodunuzu aşağıya yazın -----------------️️ ⬇️️ */
+ 
+ // Karakter verilerini saklamak için useState kullanıyoruz
+ const [characterData, setCharacterData] = useState({
+  hat: false,
+  shield: false,
+  weapon: "sword", // Başlangıçta karakterin silahı kılıç olacak
+  name: "Aragon", // Karakterin adı
+  attackOptions: ["Slash", "Pierce", "Thrust", "Fireball", "Lightning", "Stab"], // Saldırı seçenekleri
+  stats: {
+    hp: 80, // Başlangıç HP değeri
+    mp: 50, // Başlangıç MP değeri
+    strength: 70 // Başlangıç strength değeri
+  }
+});
 
+  
   /* ------------------------------------------------------------------
 
   
@@ -79,3 +94,5 @@ export default function App() {
     </div>
   )
 }
+
+  

@@ -54,7 +54,7 @@ export default function App() {
   attackOptions: ["Slash", "Pierce", "Thrust", "Fireball", "Lightning", "Stab"], // Saldırı seçenekleri
   stats: {
     hp: 80, // Başlangıç HP değeri
-    mp: 50, // Başlangıç MP değeri
+    mp: 40, // Başlangıç MP değeri
     strength: 70 // Başlangıç strength değeri
   }
 });
